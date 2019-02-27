@@ -1,6 +1,6 @@
 # Project 2
 + By: Xuefen Li
-+ Production URL: <http://p2.yourdomain.com>
++ Production URL: http://p2.xli-dwa15.me/P2/index.php
 
 ## Outside resources
 
@@ -20,6 +20,4 @@
 I tried to follow to PSR-1/PSR-2 and course guidelines on code style the best I can.
 
 ## Notes for instructor
-*Any notes for me to refer to while grading; if none, omit this section*
-
-
+none.
