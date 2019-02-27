@@ -1,0 +1,17 @@
+html, body {
+    font-family: Georgia, Helvetica, sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+#result {
+    color:red;
+}
+
+.form-control {
+    width: 200px;
+    display: inline;
+}
