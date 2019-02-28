@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
         if ($_POST['percent'] == 'yes') {
             if (is_numeric($total)) {
                 if ($total < 1) {
-                    $percentage = "<h4>Your need help!</h4>";
+                    $percentage = "<h4>Highly suggest for you to find a job now!</h4>";
                 }
                 if (in_array($total, range(1, 14999))) {
                     $percentage = "<h4>Your are in the 10.7% annual household income under $15,000 in U.S.</h4>";
