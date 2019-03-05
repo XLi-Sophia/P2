@@ -7,11 +7,16 @@ html, body {
     padding-left: 50px;
 }
 
-#result {
+b {
     color:red;
 }
 
+#result {
+    color:green;
+}
+
 .form-control {
+    text-align: center;
     width: 200px;
     display: inline;
 }
