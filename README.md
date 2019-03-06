@@ -3,21 +3,22 @@
 + Production URL: http://p2.xli-dwa15.me/P2/
 
 ## Outside resources
-
-+ is_numeric() - https://www.w3resource.com/php/function-reference/is_numeric.php
-+ statistic data from Google search online to set my percentage validation
+ 
++ Based on statistic data search online to set up income bracket validation and output message.
++ Used given Form.php example code for validation.
 
 ## 3 Unique inputs
 
 1. Text input to indicate number value; * required fields
-2. Checkbox to indicate Percentage info display when selected; optional field
-3. Radio Button to indicate % of the household income user belong; optional field
+2. Checkbox to indicate percentage info display when selected; optional field
+3. Radio Button that indicate the household income backet user belong to; optional field
 
 ## Class
-*List the name of the class(es) you're using, e.g. `Form.php`, `Password.php`, etc.*
++ Form.php - isSubmitted(), get(), validate(), numeric(), numericMessage(), has()
+
 
 ## Code style divergences
-I tried to follow to PSR-1/PSR-2 and course guidelines on code style the best I can.
+I tried to follow on PSR-1/PSR-2 and course guidelines on code style the best I can.
 
 ## Notes for instructor
 none.
