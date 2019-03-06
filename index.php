@@ -29,7 +29,7 @@ require 'logic.php';
     <?php endif ?>
 
     <!-- Calculator form -->
-    <form method='post' action='search.php'>
+    <form method='GET' action='search.php'>
         <p>
             <label>
                 Head of the Household :
