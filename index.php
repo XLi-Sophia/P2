@@ -31,29 +31,23 @@ require 'logic.php';
     <!-- Calculator form -->
     <form method='GET' action='search.php'>
         <p>
-            <label>
-                Head of the Household :
+            <label>Head of the Household :</label>
                 <input type='radio' name='gender' value='female'>Female
                 <input type='radio' name='gender' value='male'>Male
                 <input type='radio' name='gender' value='other'>Other
-            </label>
         </p>
         <p>
-            <label>
-                Annual Household Income <b>*</b> :
+            <label>Annual Household Income <b>*</b> :</label>
                 <input name='number1' type='number' class='form-control' placeholder='Number Value Only' required>
-            </label>
         </p>
         <p>
-            <label>
-                Addition Household Income <b>*</b> :
+            <label>Addition Household Income <b>*</b> :</label>
                 <input name='number2' type='number' class='form-control' placeholder='Number Value Only' required>
-            </label>
         </p>
         <p>
-            <label>
-                National Income Percentage : <input type='checkbox' name='percent' value='checked'>
-            </label>
+            <label>National Income Percentage :</label>
+                <input type='checkbox' name='percent' value='checked'>
+
         </p>
         <p>
             <input name='submit' type='submit' class='btn btn-primary'>
