@@ -28,7 +28,7 @@ if ($submitted) {
         $checkbox = $form->has('percent');
 
         if (isset($gender)) {
-            $gender = "<h4>The head of the household: {$_GET['gender']}.</h4>";
+            $gender = "<h4>The head of the household: $gender.</h4>";
         }
 
         //return int/float number value
