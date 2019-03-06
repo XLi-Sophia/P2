@@ -35,13 +35,13 @@ require 'logic.php';
                 Head of the Household :
                 <input type='radio'
                        name='gender'
-                       value='female' <?= (!isset($gender) or $gender == 'female') ? 'checked' : '' ?>>Female
+                       value='female'>Female
                 <input type='radio'
                        name='gender'
-                       value='male' <?= (!isset($gender) or $gender == 'male') ? 'checked' : '' ?>>Male
+                       value='male'>Male
                 <input type='radio'
                        name='gender'
-                       value='other' <?= (!isset($gender) or $gender == 'other') ? 'checked' : '' ?>>Other
+                       value='other'>Other
             </label>
         </p>
         <p>
@@ -58,7 +58,7 @@ require 'logic.php';
         </p>
         <p>
             <label>
-                Percentage of Household Income : <input type='checkbox' name='percent' value='checked'>
+                National Income Percentage : <input type='checkbox' name='percent' value='checked'>
             </label>
         </p>
         <p>

@@ -28,17 +28,13 @@ if ($submitted) {
         $checkbox = $form->has('percent');
 
         if (isset($gender)) {
-            if (($gender == 'female') || ($gender == 'male') || ($gender == 'other')) {
-                $check = 'checked';
-            }
             $gender = "<h4>The head of the household: {$_POST['gender']}.</h4>";
-            $check = '';
         }
 
         //return int/float number value
         if (isset($num1) && isset($num2)) {
             $total = $num1 + $num2;
-            $result = "<h4>Your annual household income is $$total</h4>";
+            $result = "<h4>Annual household income: $$total</h4>";
         }
 
         //if checkbox is selected, validate value for output
@@ -74,7 +70,7 @@ if ($submitted) {
                 $percentage = "<h4>Your are in the 7.7% annual household income above $200,000 in U.S.</h4>";
             }
         } else {
-            $percentage = "<h4>Household income percentage check box was not selected.</h4>";
+            $percentage = '';
         }
     }
 }
