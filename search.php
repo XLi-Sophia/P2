@@ -9,7 +9,7 @@ session_start();
 $result = '* Fields are required.';
 //$percentage = $gender = $check = $total = '';
 
-$form = new Form($_POST);
+$form = new Form($_GET);
 
 $submitted = $form->isSubmitted();
 
@@ -28,7 +28,7 @@ if ($submitted) {
         $checkbox = $form->has('percent');
 
         if (isset($gender)) {
-            $gender = "<h4>The head of the household: {$_POST['gender']}.</h4>";
+            $gender = "<h4>The head of the household: {$_GET['gender']}.</h4>";
         }
 
         //return int/float number value
