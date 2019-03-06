@@ -32,21 +32,21 @@ require 'logic.php';
     <form method='GET' action='search.php'>
         <p>
             <label>Head of the Household :</label>
-                <input type='radio' name='gender' value='female'>Female
-                <input type='radio' name='gender' value='male'>Male
-                <input type='radio' name='gender' value='other'>Other
+            <input type='radio' name='gender' value='female'>Female
+            <input type='radio' name='gender' value='male'>Male
+            <input type='radio' name='gender' value='other'>Other
         </p>
         <p>
             <label>Annual Household Income <b>*</b> :</label>
-                <input name='number1' type='number' class='form-control' placeholder='Number Value Only' required>
+            <input name='number1' type='number' class='form-control' placeholder='Number Value Only' required>
         </p>
         <p>
             <label>Addition Household Income <b>*</b> :</label>
-                <input name='number2' type='number' class='form-control' placeholder='Number Value Only' required>
+            <input name='number2' type='number' class='form-control' placeholder='Number Value Only' required>
         </p>
         <p>
             <label>National Income Percentage :</label>
-                <input type='checkbox' name='percent' value='checked'>
+            <input type='checkbox' name='percent' value='checked'>
 
         </p>
         <p>
