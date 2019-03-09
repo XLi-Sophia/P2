@@ -1,6 +1,6 @@
 # Project 2
 + By: Xuefen Li
-+ Production URL: http://p2.xli-dwa15.me/P2/
++ Production URL: http://p2.xli-dwa15.me
 
 ## Outside resources
  
